@@ -12,6 +12,12 @@ const User = new Schema({
     repeatPassword:{
         type:String,
     },
+    name:{
+        type:String,
+    },
+    phone:{
+        type:String,
+    },
 
 
 },{collection:'users'});

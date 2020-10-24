@@ -39,10 +39,11 @@
                 
 
             const newUser = new User({
-                
+                name: req.body.credentials.name,
                 email: req.body.credentials.email,
                 password: req.body.credentials.password ,
                 repeatPassword:req.body.credentials.repeatPassword,
+                phone:req.body.credentials.phone,
                 createdAt:new Date()
               });
               
